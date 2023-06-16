@@ -1,0 +1,28 @@
+{
+  "resources": [
+    {
+      "title": "your story",
+      "imageUrl": "/assets/Story-Item-0.png"
+    },
+    {
+      "title": "Terry Lucas",
+      "imageUrl": "/assets/Story-Item-1.png"
+    },
+    {
+      "title": "Terry Lucas",
+      "imageUrl": "/assets/Story-Item-2.png"
+    },
+    {
+      "title": "Terry Lucas",
+      "imageUrl": "/assets/Story-Item-3.png"
+    },
+    {
+      "title": "Terry Lucas",
+      "imageUrl": "/assets/Story-Item-4.png"
+    },
+    {
+      "title": "Terry Lucas",
+      "imageUrl": "/assets/Story-Item-5.png"
+    }
+  ]
+}

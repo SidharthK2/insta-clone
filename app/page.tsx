@@ -1,11 +1,11 @@
 import Navbar from "./components/Navbar/Navbar";
+import Story from "./components/Primary/Story/Story";
 
 export default function Home() {
-  console.log("HI");
   return (
-    <main className="flex-col min-h-screen min-w-full">
+    <main className="min-h-screen min-w-full">
       <Navbar />
-      <div>hi from home</div>
+      <Story />
     </main>
   );
 }
