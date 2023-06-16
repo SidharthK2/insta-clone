@@ -51,7 +51,7 @@ const Story = () => {
   }, []);
 
   return (
-    <div className="carousel outline outline-1 outline-slate-200 p-3 rounded-md max-w-5xl w-fit my-12 mx-auto">
+    <div className="carousel outline outline-1 outline-slate-200 p-3 rounded-md max-w-4xl w-fit my-6 mx-auto">
       <div className="relative overflow-hidden">
         <div className="flex justify-between absolute top left w-full h-full">
           <button
@@ -100,10 +100,10 @@ const Story = () => {
             return (
               <div
                 key={index}
-                className="carousel-item text-center relative snap-start">
+                className="carousel-item flex-shrink-0 text-center relative snap-start">
                 <a
                   href={"#"}
-                  className="h-full w-full aspect-square block bg-origin-padding bg-left-top bg-cover bg-no-repeat z-0"
+                  className="w-auto aspect-square block bg-origin-padding bg-left-top bg-cover bg-no-repeat z-0"
                   style={{
                     backgroundImage: `url(${resource?.imageUrl})`,
                   }}>
