@@ -5,7 +5,7 @@ import data from "./data.json";
 
 const Suggestions = () => {
   return (
-    <div className="suggestions-container flex-col justify-start px-2 py-7 text-sm text-gray-500">
+    <div className="suggestions-container flex-col justify-start px-4 py-7 text-sm text-gray-500">
       <div className="flex justify-between text-xs py-1 my-4">
         <div className="flex gap-3 items-center">
           <div>
@@ -28,7 +28,7 @@ const Suggestions = () => {
 
       {data.resources.map((el, index) => {
         return (
-          <div key={index} className="flex justify-between text-xs py-1">
+          <div key={index} className="flex justify-between text-xs py-2">
             <div className="flex">
               <div>
                 <Image src={el.imgUrl} alt={el.name} width={32} height={32} />
