@@ -1,11 +1,11 @@
-import Navbar from "./components/Navbar";
+import Navbar from "./components/Navbar/Navbar";
 
 export default function Home() {
   console.log("HI");
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <main className="flex-col min-h-screen min-w-full">
       <Navbar />
-      hi from home
+      <div>hi from home</div>
     </main>
   );
 }
