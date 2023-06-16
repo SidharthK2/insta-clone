@@ -1,0 +1,20 @@
+{
+  "resources": [
+    {
+      "name": "TeryLucas",
+      "imgUrl": "/assets/Profile-Pic-0.png"
+    },
+    {
+      "name": "LauraMatthews",
+      "imgUrl": "/assets/Profile-Pic-1.png"
+    },
+    {
+      "name": "HarryPrescott",
+      "imgUrl": "/assets/Profile-Pic-2.png"
+    },
+    {
+      "name": "Ednamaz",
+      "imgUrl": "/assets/Profile-Pic-3.png"
+    }
+  ]
+}

@@ -96,7 +96,7 @@ const Story = () => {
         <div
           ref={carousel}
           className="carousel-container relative flex gap-1 overflow-hidden scroll-smooth snap-x snap-mandatory touch-pan-x z-0">
-          {data.resources.map((resource, index) => {
+          {data.resources.map((el, index) => {
             return (
               <div
                 key={index}
@@ -105,9 +105,9 @@ const Story = () => {
                   href={"#"}
                   className="w-auto aspect-square block bg-origin-padding bg-left-top bg-cover bg-no-repeat z-0"
                   style={{
-                    backgroundImage: `url(${resource?.imageUrl})`,
+                    backgroundImage: `url(${el?.imageUrl})`,
                   }}>
-                  <img src={resource?.imageUrl} alt={"dp"} className="w-full" />
+                  <img src={el?.imageUrl} alt={"dp"} className="w-full" />
                 </a>
               </div>
             );
