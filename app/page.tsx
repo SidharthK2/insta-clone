@@ -9,11 +9,12 @@ export default function Home() {
       <div className="container max-w-4xl flex-col justify-center">
         <Navbar />
         <div className="body mx-auto flex flex-row h-full">
-          <div className="primary-section flex-col justify-center sm:basis-2/3 outline outline-1 outline-slate-300">
+          <div className="primary-section flex-col justify-center sm:basis-2/3 outline outline-1 outline-slate-200 rounded-md shadow-xl">
             <Story />
+            <hr />
             <Post />
           </div>
-          <div className="hidden sm:block secondary-section sm:basis-1/3 outline outline-1">
+          <div className="hidden sm:block secondary-section sm:basis-1/3">
             <Suggestions />
           </div>
         </div>

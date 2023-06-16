@@ -12,7 +12,7 @@ import Profile from "./assets/Profile-Pic.png";
 
 const Navbar = () => {
   return (
-    <nav className="flex-grow-0 max-w-4xl min-w-64 outline outline-1 flex-col justify-center mx-auto">
+    <nav className="flex-grow-0 max-w-4xl min-w-64 flex-col justify-center mx-auto">
       <div className=" mx-auto px-6 sm:px-4">
         <div className="flex-col sm:flex sm:flex-row  items-center justify-between py-2 h-16">
           <div className="flex-shrink-0]">

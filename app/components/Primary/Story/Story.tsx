@@ -51,7 +51,7 @@ const Story = () => {
   }, []);
 
   return (
-    <div className="carousel outline outline-1 outline-slate-200 p-3 rounded-md max-w-4xl w-fit my-6 mx-auto">
+    <div className="carousel 0 p-3 rounded-md max-w-4xl w-fit my-6 mx-auto">
       <div className="relative overflow-hidden">
         <div className="flex justify-between absolute top left w-full h-full">
           <button
